@@ -1,6 +1,5 @@
 #SRC Data Validation
 
-select 'ADDRESS',count(*) AS COUNT from ADDRESS UNION ALL
 select 'BILLING',count(*) AS COUNT from BILLING UNION ALL 
 select 'CITY',count(*) AS COUNT from CITY UNION ALL 
 select 'CLAIM',count(*) AS COUNT from CLAIM UNION ALL 
